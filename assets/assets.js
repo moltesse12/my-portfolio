@@ -1,4 +1,4 @@
-import user_image from './user-image.png';
+import user_image from './user-image.jpg';
 import code_icon from './code-icon.png';
 import code_icon_dark from './code-icon-dark.png';
 import edu_icon from './edu-icon.png';
@@ -15,7 +15,7 @@ import logo from './logo.png';
 import logo_dark from './logo_dark.png';
 import mail_icon from './mail_icon.png';
 import mail_icon_dark from './mail_icon_dark.png';
-import profile_img from './profile-img.png';
+import profile_img from './profile-img.jpg';
 import download_icon from './download-icon.png';
 import hand_icon from './hand-icon.png';
 import header_bg_color from './header-bg-color.png';
@@ -82,11 +82,11 @@ export const workData = [
         description: 'Web Design',
         bgImage: '/work-1.png',
     },
-    {
-        title: 'Geo based app',
-        description: 'Mobile App',
-        bgImage: '/work-2.png',
-    },
+    // {
+    //     title: 'Geo based app',
+    //     description: 'Mobile App',
+    //     bgImage: '/work-2.png',
+    // },
     {
         title: 'Photography site',
         description: 'Web Design',
@@ -100,16 +100,16 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Conception web', description: 'Le d veloppement web est le processus de cr ation, de programmation...', link: '' },
+    { icon: assets.mobile_icon, title: 'Application mobile', description: "Le développement d'applications mobiles implique la création de logiciels pour les appareils mobiles...", link: '' },
+    { icon: assets.ui_icon, title: 'Conception UI/UX', description: "La conception UI/UX se concentre sur la création d'une expérience utilisateur transparente...", link: '' },
+    { icon: assets.graphics_icon, title: 'Conception graphique', description: "Solutions de conception créatives pour améliorer la communication visuelle...", link: '' },
 ]
 
 export const infoList = [
     { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
-    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'B.Tech in Computer Science' },
-    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
+    { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'College de Paris Superieur' },
+    { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: "J'ai a mon actif 5 projets complets" }
 ];
 
 export const toolsData = [

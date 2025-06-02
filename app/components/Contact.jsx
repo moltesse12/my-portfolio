@@ -102,7 +102,7 @@ const Contact = () => {
           required
         ></textarea>
 
-        <button
+        <motion.button
           whileHover={{ scale: 1.05 }}
           transition={{ duration: 0.3 }}
           type="submit"
@@ -111,7 +111,7 @@ const Contact = () => {
           {" "}
           Submit now
           <Image src={assets.right_arrow_white} alt="" className="w-4" />
-        </button>
+        </motion.button>
         <p className="mt-4">{result}</p>
       </motion.form>
     </motion.div>
